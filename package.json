@@ -1,7 +1,7 @@
 {
   "name": "socket",
   "version": "1.0.0",
-  "description": "chat",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/AndyGarnica/socket.git"
   },
-  "author": "",
+  "author": "andy garnica",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AndyGarnica/socket/issues"
   },
-  "homepage": "https://github.com/AndyGarnica/socket#readme"
+  "homepage": "https://github.com/AndyGarnica/socket#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
